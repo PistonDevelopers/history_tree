@@ -1,0 +1,17 @@
+[package]
+name = "piston-history_tree"
+version = "0.1.0"
+authors = ["Sven Nilsen <bvssvni@gmail.com>"]
+keywords = ["history", "undo", "redo", "index", "piston"]
+description = "A persistent history tree for undo/redo"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/pistondevelopers/history_tree.git"
+homepage = "https://github.com/pistondevelopers/history_tree"
+categories = ["algorithms"]
+
+[lib]
+name = "history_tree"
+path = "src/lib.rs"
+
+[dependencies]
